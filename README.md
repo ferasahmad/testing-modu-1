@@ -91,4 +91,4 @@ This Next.js + Tailwind CSS setup has been verified on 2025-08-12:
 **Environment Tested**: Node.js with npm
 **Status**: 🟢 Ready for development
 
-Built with ❤️ using Next.js
+Built by modu
