@@ -1,5 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,9 +18,16 @@ export default function Home() {
           <p className="text-gray-600 dark:text-gray-400">
             This is a clean slate with beautiful UI components ready to use.
           </p>
-          <Button className="w-full" size="lg">
-            Get Started
-          </Button>
+          <div className="space-y-3">
+            <Button className="w-full" size="lg">
+              Get Started
+            </Button>
+            <Link href="/hello-world" className="block">
+              <Button variant="outline" className="w-full" size="lg">
+                Visit Hello World Page →
+              </Button>
+            </Link>
+          </div>
         </CardContent>
       </Card>
     </div>
